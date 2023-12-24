@@ -2,9 +2,11 @@
 
 ## steps to run the project
 ''' bash
->> conda create -n IE python=3.8 -y
->> conda activate IE
->> pip install -r requirements.txt
+conda create -n IE python=3.8 -y
+
+conda activate IE
+
+pip install -r requirements.txt
 '''
 ### create a '.env' file in the root directory and add your pinecone credentials as follows:
 
