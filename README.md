@@ -1,4 +1,4 @@
-# End-to-end-Medical-Chatbot-using-Llama2
+# IE-Chatbot-using-Llama2
 
 # How to run?
 ### STEPS:
@@ -12,11 +12,11 @@ Project repo: https://github.com/
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mchatbot python=3.8 -y
+conda create -n IE python=3.8 -y
 ```
 
 ```bash
-conda activate mchatbot
+conda activate IE
 ```
 
 ### STEP 02- install the requirements
