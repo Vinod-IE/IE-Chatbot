@@ -1,71 +1,33 @@
-# IE-Chatbot-using-Llama2
+# IE-Chatbot
 
-# How to run?
-### STEPS:
+## steps to run the project
+''' bash
 
-Clone the repository
-
-```bash
-Project repo: https://github.com/
-```
-
-### STEP 01- Create a conda environment after opening the repository
-
-```bash
 conda create -n IE python=3.8 -y
-```
 
-```bash
 conda activate IE
-```
 
-### STEP 02- install the requirements
-```bash
 pip install -r requirements.txt
-```
 
+'''
+### create a '.env' file in the root directory and add your pinecone credentials as follows:
 
-### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
-
-```ini
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-```
-
-
+''' ini
+PINECONE_API_KEY = your_api_key
+PINECONE_API_ENV = your _api_env
+'''
 ### Download the quantize model from the link provided in model folder & keep the model in the model directory:
 
-```ini
-## Download the Llama 2 Model:
+''' ini
+## Download th Llama 2 model:
 
 llama-2-7b-chat.ggmlv3.q4_0.bin
 
+## from the following link:
 
-## From the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
-```
 
-```bash
-# run the following command
-python store_index.py
-```
-
-```bash
-# Finally run the following command
-python app.py
-```
-
-Now,
-```bash
-open up localhost:
-```
+'''
 
 
-### Techstack Used:
-
-- Python
-- LangChain
-- Flask
-- Meta Llama2
-- Pinecone
 
